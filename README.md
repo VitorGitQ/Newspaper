@@ -32,7 +32,9 @@ Visualize o Layout do projeto através [DESSE LINK](https://www.figma.com/design
   
    <img style="width:50px; margin:5px;" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
 
-   <img style="width:60px; margin:5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap">
+   <img style="width:60px; margin:6px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap">
+
+   <img style="width:60px; margin:5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" alt="Sass">
 
    <img style="width:50px; margin:5px;" src="https://4.bp.blogspot.com/-LiJZ5I8E7K8/XIe_GeI5glI/AAAAAAAAIuw/4Awu8j8r0P8TKBXzyxyslHEfplOlK9-6QCK4BGAYYCw/s1600/icon%2Bfigma%2Bvector.png">
 </div>
