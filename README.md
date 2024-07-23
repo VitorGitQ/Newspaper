@@ -1,5 +1,5 @@
 
-<h1 align="center"> NEWSPAPER </h1>
+<h1 align="center"> NEWSPAPER 📰</h1>
 
 
 <p align="center">
@@ -9,11 +9,13 @@
 
   
 </p>
-<img src="asset/readm/LAYOUT-newspaper.png">
+<img src="asset/readm/LAYOUTS.png">
 
 
 ## PROJETO
-...
+"My Newspaper" é um projeto web que tem objetivo permitir que o usuário crie sua própria página de jornal, nela ele poderá por fotos de momentos icônicos da sua vida e comentar sobre esses momentos... Ou seja fazer desses momentos notícias de um velho jornal.
+
+Esse projeto vai funcionar da senguinte forma, existirá campos editaveis, tanto para fotos como para a edição de texto e títulos. E no fim quando o jornal estiver do jeitinho que deseja o usuário poderá baixar essa página como uma arquivo PDF para guardar.
 
 ## LAYOUT
 
@@ -23,7 +25,7 @@ Visualize o Layout do projeto através [DESSE LINK](https://www.figma.com/design
 <br>
 
 ### TECNOLOGIAS 
-<div style="display:flex; gap:5px;">
+<div style="display:flex; gap:8px;">
    <img style="width:50px; margin:5px;" src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML">
 
    <img style="width:50px; margin:5px;" src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS">
