@@ -1,0 +1,29 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$color-main: #C4C3BF;
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: $color-main;
+    font-family: k;
+}
+
+header {
+    .title-line {
+        background-color: $black;
+        height: 2px;
+    }
+
+    .sub-title {
+        font-size:x-small;
+    }
+
+    .date {
+        font-size: xx-small;
+    }
+    .date-line {
+        background-color: $black;
+        height: 1px;
+    }
+}
