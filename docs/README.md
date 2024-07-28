@@ -47,9 +47,10 @@ Visualize o Layout do projeto através [DESSE LINK](https://www.figma.com/design
 ### ESTRUTURA DE PASTAS
 
 <div style="display:flex; flex-direction:column;">
-  <span>/asset ------------------- Arquivos de conteúdo primário</span> <br>
-  <span>/CSS -------------------- Arquivos de mapeamento e converção do Sass </span> <br>
-  <span>/docs ------------------- Documentação do projeto</span> <br>
-  <span>/node_modules -------- Modules Bootstrap</span> <br>
-  <span>/src --------------------- Código fonte </span> <br>
+  <span>/asset -------------------- Arquivos de conteúdo primário</span> <br>
+  <span>/CSS ---------------------- Arquivos de mapeamento e converção do Sass </span> <br>
+  <span>/docs --------------------- Documentação do projeto</span> <br>
+  <span>/module ------------------- JavaScript Functions Modules</span> <br>
+  <span>/node_modules ------------- Modules Bootstrap</span> <br>
+  <span>/src ---------------------- Código fonte </span> <br>
 </div>
