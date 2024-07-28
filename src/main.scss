@@ -1,9 +1,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 $color-main: #C4C3BF;
+$subton: #8c8a83;
 
 body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: $color-main;
     font-family: k;
@@ -15,6 +18,9 @@ header {
         height: 2px;
     }
 
+    .title {
+        cursor: pointer;
+    }
     .sub-title {
         font-size:x-small;
     }
@@ -26,4 +32,11 @@ header {
         background-color: $black;
         height: 1px;
     }
+}
+
+
+.input-box {
+    background-color: $subton;
+    position: absolute;
+    top: 50%;
 }
