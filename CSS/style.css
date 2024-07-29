@@ -11862,6 +11862,7 @@ header .title {
 }
 header .sub-title {
   font-size: x-small;
+  cursor: pointer;
 }
 header .date {
   font-size: xx-small;
@@ -11873,8 +11874,36 @@ header .date-line {
 
 .input-box {
   background-color: #8c8a83;
+  box-shadow: #000 10px 10px;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 50%;
+  opacity: 1;
+  pointer-events: all;
+}
+.input-box #inputText {
+  background-color: #C4C3BF;
+}
+.input-box #buttonSend {
+  height: 40px;
+}
+.input-box #buttonSend:hover {
+  background-color: rgb(60, 131, 58);
+}
+.input-box #buttonOut {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+.input-box #buttonOut:hover {
+  background-color: rgb(200, 57, 57);
+}
+
+.input-box.hide {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=style.css.map */
