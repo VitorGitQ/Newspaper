@@ -1,0 +1,40 @@
+.input-box {
+    background-color: $subton;
+    box-shadow: $black 10px 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    opacity: 1;
+    pointer-events: all;
+
+    #inputText {
+        background-color: $color-main;
+    }
+
+    #buttonSend {
+        height: 40px;
+    }
+
+    #buttonSend:hover {
+        background-color: rgb(60, 131, 58);
+    }
+    
+    #buttonOut {
+        width: 20px;
+        height:20px;
+        align-self: flex-end;
+        margin-bottom: 20px;
+        
+    }
+
+    #buttonOut:hover {
+        background-color: rgb(200, 57, 57);
+    }
+
+}
+
+.input-box.hide {
+    opacity: 0;
+    pointer-events: none;
+}
