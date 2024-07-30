@@ -27,19 +27,21 @@ Visualize o Layout do projeto através [DESSE LINK](https://www.figma.com/design
 
 ### TECNOLOGIAS 
 <div style="display:flex; gap:8px;">
-   <img style="width:50px; margin:5px;" src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML">
+   <img style="width:50px; margin:8px;" src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML">
 
-   <img style="width:50px; margin:5px;" src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS">
+   <img style="width:50px; margin:8px;" src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS">
 
-   <img style="width:50px; margin:5px;" src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="Java Script">
+   <img style="width:50px; margin:8px;" src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="Java Script">
   
-   <img style="width:50px; margin:5px;" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
+   <img style="width:50px; margin:8px;" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
 
-   <img style="width:60px; margin:6px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap">
+   <img style="width:60px; margin:8px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap">
 
-   <img style="width:60px; margin:5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" alt="Sass">
+   <img style="width:60px; margin:8px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" alt="Sass">
 
-   <img style="width:50px; margin:5px;" src="https://4.bp.blogspot.com/-LiJZ5I8E7K8/XIe_GeI5glI/AAAAAAAAIuw/4Awu8j8r0P8TKBXzyxyslHEfplOlK9-6QCK4BGAYYCw/s1600/icon%2Bfigma%2Bvector.png">
+   <img style="width:50px; margin:8px;" src="https://4.bp.blogspot.com/-LiJZ5I8E7K8/XIe_GeI5glI/AAAAAAAAIuw/4Awu8j8r0P8TKBXzyxyslHEfplOlK9-6QCK4BGAYYCw/s1600/icon%2Bfigma%2Bvector.png">
+
+   <img style="width:50px; margin:8px;" src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-3628954-3030179.png?f=webp&w=256">
 </div>
 
 <br>
