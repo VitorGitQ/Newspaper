@@ -10,7 +10,7 @@
 
   
 </p>
-<img src="../asset/png/LAYOUTS.png">
+<img src="../asset/img/LAYOUTS.png">
 
 
 ## PROJETO
