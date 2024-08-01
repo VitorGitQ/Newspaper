@@ -4,6 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@100;300;500;700&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11844,40 +11845,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #C4C3BF;
-  font-family: k;
-}
-
-header .title-line {
-  background-color: #000;
-  height: 2px;
-}
-header .title {
-  cursor: pointer;
-}
-header .sub-title {
-  font-size: x-small;
-  cursor: pointer;
-}
-header .date {
-  font-size: xx-small;
-}
-header .date-line {
-  background-color: #000;
-  height: 1px;
-}
-
 .input-box {
   background-color: #8c8a83;
   box-shadow: #000 10px 10px;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 50%;
   opacity: 1;
   pointer-events: all;
@@ -11904,6 +11877,46 @@ header .date-line {
 .input-box.hide {
   opacity: 0;
   pointer-events: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #C4C3BF;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header .title-line {
+  background-color: #000;
+  height: 2px;
+}
+header .title {
+  cursor: pointer;
+}
+header .sub-title {
+  font-size: x-small;
+  cursor: pointer;
+}
+header .date {
+  font-size: xx-small;
+}
+header .date-line {
+  background-color: #000;
+  height: 1px;
+}
+
+.img-box {
+  display: flex;
+  background-color: #433E3E;
+  height: 50vw;
+  background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

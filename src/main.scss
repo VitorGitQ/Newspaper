@@ -1,8 +1,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../asset/sass/input-box.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@100;300;500;700&display=swap');
 
 
 $color-main: #C4C3BF;
 $subton: #8c8a83;
+$color-box:#433E3E;
 
 body {
     display: flex;
@@ -10,7 +14,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: $color-main;
-    font-family: k;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -21,6 +27,7 @@ header {
 
     .title {
         cursor: pointer;
+    
     }
     .sub-title {
         font-size:x-small;
@@ -37,3 +44,15 @@ header {
 }
 
 
+
+.img-box {
+    display: flex;
+    background-color: $color-box;
+    height: 50vw;
+
+    background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    
+}

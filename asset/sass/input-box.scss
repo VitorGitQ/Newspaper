@@ -1,9 +1,13 @@
+$color-main: #C4C3BF;
+$subton: #8c8a83;
+$color-box:#433E3E;
+
 .input-box {
     background-color: $subton;
     box-shadow: $black 10px 10px;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 50%;
     opacity: 1;
     pointer-events: all;
