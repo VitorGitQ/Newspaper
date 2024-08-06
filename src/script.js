@@ -1,6 +1,8 @@
 import inputBox from "../module/text_edtion.js";
 
-const inputModal = document.getElementById('input-modal')
+const inputModal = document.getElementById('input-modal');
+const fade = document.getElementById('fade');
+
 const title = document.getElementById('title');
 
 const subTitle1 = document.getElementById('subtitle1');
@@ -25,6 +27,7 @@ const description7 = document.getElementById('description7');
     el.onclick = () => {
         inputBox(el.id);
         inputModal.classList.toggle("hide");
+        fade.classList.toggle("hide");
     };
 
 });

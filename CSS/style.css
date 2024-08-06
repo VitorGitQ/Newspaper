@@ -11850,6 +11850,7 @@ textarea.form-control-lg {
   box-shadow: #000 10px 10px;
   display: flex;
   flex-direction: column;
+  z-index: 3;
   position: fixed;
   top: 50%;
   opacity: 1;
@@ -11874,9 +11875,19 @@ textarea.form-control-lg {
   background-color: rgb(200, 57, 57);
 }
 
-.input-box.hide {
+.hide {
   opacity: 0;
   pointer-events: none;
+}
+
+.fade {
+  display: flex;
+  position: fixed;
+  background-color: #8c8a83;
+  z-index: 2;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -11907,6 +11918,10 @@ header .date {
 header .date-line {
   background-color: #000;
   height: 1px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .img-box {

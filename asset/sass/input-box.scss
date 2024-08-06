@@ -7,6 +7,7 @@ $color-box:#433E3E;
     box-shadow: $black 10px 10px;
     display: flex;
     flex-direction: column;
+    z-index: 3;
     position: fixed;
     top: 50%;
     opacity: 1;
@@ -38,7 +39,17 @@ $color-box:#433E3E;
 
 }
 
-.input-box.hide {
+.hide {
     opacity: 0;
     pointer-events: none;
+}
+
+.fade {
+    display: flex;
+    position: fixed;
+    background-color: $subton;
+    z-index: 2;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
 }
