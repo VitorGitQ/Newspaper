@@ -1,6 +1,7 @@
 import inputBox from "../module/text_edtion.js";
+import inputImg from "../module/img_edtion.js";
 
-const inputModal = document.getElementById('input-modal');
+const inputTextModal = document.getElementById('input-modal');
 const fade = document.getElementById('fade');
 
 const title = document.getElementById('title');
@@ -26,9 +27,27 @@ const description7 = document.getElementById('description7');
 [title, subTitle1, subTitle2, subTitle3, subTitle4, subTitle5, subTitle6, subTitle7, subTitle8, description1, description2, description3, description4, description5, description6, description7].forEach((el) => {
     el.onclick = () => {
         inputBox(el.id);
-        inputModal.classList.toggle("hide");
+        inputTextModal.classList.toggle("hide");
         fade.classList.toggle("hide");
     };
 
 });
 
+
+
+
+
+const inputImgModal = document.getElementById('img-modal');
+const boxImage1 = document.getElementById('boximg1');
+const boxImage2 = document.getElementById('boximg2');
+const boxImage3 = document.getElementById('boximg3');
+
+
+[boxImage1,boxImage2,boxImage3].forEach((el) => {
+    el.onclick = () => {
+        inputImg(el);
+        inputImgModal.classList.toggle("hide");
+        fade.classList.toggle("hide");
+    };
+
+});

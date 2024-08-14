@@ -11856,22 +11856,22 @@ textarea.form-control-lg {
   opacity: 1;
   pointer-events: all;
 }
-.input-box #inputText {
+.input-box .inputText {
   background-color: #C4C3BF;
 }
-.input-box #buttonSend {
+.input-box .buttonSend {
   height: 40px;
 }
-.input-box #buttonSend:hover {
+.input-box .buttonSend:hover {
   background-color: rgb(60, 131, 58);
 }
-.input-box #buttonOut {
+.input-box .buttonOut {
   width: 20px;
   height: 20px;
   align-self: flex-end;
   margin-bottom: 20px;
 }
-.input-box #buttonOut:hover {
+.input-box .buttonOut:hover {
   background-color: rgb(200, 57, 57);
 }
 
@@ -11888,6 +11888,59 @@ textarea.form-control-lg {
   top: 0%;
   width: 100vw;
   height: 100vh;
+}
+
+.input-img {
+  background-color: #8c8a83;
+  box-shadow: #000 10px 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  position: fixed;
+  top: 20%;
+  opacity: 1;
+  pointer-events: all;
+}
+.input-img .buttonSend {
+  height: 40px;
+}
+.input-img .buttonSend:hover {
+  background-color: rgb(60, 131, 58);
+}
+.input-img .buttonOut {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+.input-img .buttonOut:hover {
+  background-color: rgb(200, 57, 57);
+}
+.input-img #chooseimg {
+  display: none;
+}
+.input-img label {
+  display: flex;
+  width: 60vw;
+  height: 40vh;
+  background-color: #C4C3BF;
+  color: #8c8a83;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.input-img label #preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  position: fixed;
 }
 
 body {
@@ -11927,7 +11980,10 @@ header .date-line {
 .img-box {
   display: flex;
   background-color: #433E3E;
-  height: 50vw;
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+  object-fit: cover;
   background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
   background-repeat: no-repeat;
   background-position: center;

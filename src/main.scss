@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../asset/sass/input-box.scss";
+@import "../asset/sass/input-img.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@100;300;500;700&display=swap');
 
@@ -50,9 +51,13 @@ header {
 .img-box {
     display: flex;
     background-color: $color-box;
-    height: 50vw;
+    height: auto;
+    width: 100%;
 
-    background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg) ;
+    cursor: pointer;
+
+    object-fit: cover;
+    background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;

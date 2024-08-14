@@ -9,8 +9,8 @@ function textEdtion(where) {
     const inputModal = document.getElementById("input-modal");
     const fade = document.getElementById('fade');
     const inputText = document.getElementById("inputText");
-    const buttonGetOut  = document.getElementById("buttonOut");
-    const buttonSend  = document.getElementById("buttonSend");
+    const buttonGetOut  = document.getElementById("buttonOut-textmodal");
+    const buttonSend  = document.getElementById("buttonSend-textmodal");
 
     function testText() {
         textEdit.innerHTML = inputText.value ? inputText.value : textEdit.innerText;

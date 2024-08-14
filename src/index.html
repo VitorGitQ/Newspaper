@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Newspaper</title>
 
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
@@ -36,9 +36,20 @@
     
 
     <div class="input-box p-4 hide" id="input-modal">
-        <button type="button" id="buttonOut">x</button>
+        <button type="button" class="buttonOut" id="buttonOut-textmodal">x</button>
         <input id="inputText" type="text" name="name" placeholder="Digite o título">
-        <button type="button" id="buttonSend">Done</button>
+        <button type="button" class="buttonSend" id="buttonSend-textmodal">Done</button>
+    </div>
+
+
+    <div class="input-img p-4 hide" id="img-modal">
+        <button type="button" class="buttonOut" id="buttonOut-imgmodal">x</button>
+        <label for="chooseimg">
+            <img class="hide" id="preview" src="" alt=""> 
+            <p  id="textlabel">CHOOSE IMAGE</p>
+        </label>
+        <input type="file" accept="image/jpeg, image/png, image/jpg" id="chooseimg">
+        <button type="button"  class="buttonSend" id="buttonSend-imgmodal">Done</button>
     </div>
 
     <div class="fade hide" id="fade"> 
@@ -50,9 +61,8 @@
        <section class="container">
         <article >
             
-            <div class="img-box">
-                <span></span>
-            </div>
+            <img class="img-box" id="boximg1">
+        
             <h2 class="pointer" id="subtitle3">One Day So Spacial</h2>
             <p class="pointer" id="description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
         </article>
@@ -60,17 +70,15 @@
         <article>
             <h2 class="pointer" id="subtitle4">One Day So Spacial</h2>
             <p class="pointer" id="description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-            <div class="img-box">
+            <img class="img-box" id="boximg2">
                 
-            </div>
             <p class="pointer" id="description3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus excepturi inventore blanditiis suscipit unde ex deserunt qui? Tempore, quisquam. Perspiciatis quis aperiam debitis eveniet quo modi sequi ipsam non doloribus.</p>
         </article>
 
         <article>
             <h2 class="pointer" id="subtitle5">One Day So Spacial</h2>
-            <div class="img-box">
+            <img class="img-box" id="boximg3">
                 
-            </div>
             <p class="pointer" id="description4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
         </article>
        </section>
