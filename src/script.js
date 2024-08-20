@@ -1,7 +1,8 @@
 import inputBox from "../module/text_edtion.js";
 import inputImg from "../module/img_edtion.js";
+import inputDate from "../module/date_edtion.js";
 
-const inputTextModal = document.getElementById('input-modal');
+const inputTextModal = document.getElementById('text-modal');
 const fade = document.getElementById('fade');
 
 const title = document.getElementById('title');
@@ -33,6 +34,16 @@ const description7 = document.getElementById('description7');
 
 });
 
+
+
+const date = document.getElementById("date");
+const inputDateModal = document.getElementById("date-modal");
+
+date.onclick = () => {
+    inputDate(date);
+    inputDateModal.classList.toggle("hide");
+    fade.classList.toggle("hide");
+};
 
 
 
