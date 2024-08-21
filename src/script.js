@@ -51,10 +51,11 @@ date.onclick = () => {
 const inputImgModal = document.getElementById('img-modal');
 const boxImage1 = document.getElementById('boximg1');
 const boxImage2 = document.getElementById('boximg2');
+const boxImage2_1 = document.getElementById('boximg2-1');
 const boxImage3 = document.getElementById('boximg3');
 
 
-[boxImage1,boxImage2,boxImage3].forEach((el) => {
+[boxImage1,boxImage2,boxImage2_1,boxImage3].forEach((el) => {
     el.onclick = () => {
         inputImg(el);
         inputImgModal.classList.toggle("hide");

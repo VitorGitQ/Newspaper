@@ -3,11 +3,15 @@
 @import "../asset/sass/input-img.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Moderustic:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100;300;500;700&display=swap');
+
 
 
 $color-main: #C4C3BF;
 $subton: #8c8a83;
 $color-box:#433E3E;
+$title-font: "Koulen", sans-serif;
+$paragraph-font:"Roboto Mono", monospace;
 
 body {
     display: flex;
@@ -15,9 +19,13 @@ body {
     align-items: center;
     justify-content: center;
     background-color: $color-main;
-    font-family: "Koulen", sans-serif;
+    font-family: $title-font;
     font-weight: 400;
     font-style: normal;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 header {
@@ -27,39 +35,78 @@ header {
     }
 
     .title {
-        cursor: pointer;
+        cursor:pointer;
     
     }
     .sub-title {
         font-size:x-small;
-        cursor: pointer;
+        cursor:pointer;
     }
 
     .date {
-        font-size: xx-small;
+        font-size:xx-small;
     }
     .date-line {
         background-color: $black;
-        height: 1px;
+        height:1px;
     }
 }
 
- .pointer {
-    cursor: pointer;
- }
+main {
+    padding: 10px;
+    article {
+        margin-bottom: 50px;
 
-.img-box {
-    display: flex;
-    background-color: $color-box;
-    height: 60vh;
-    width: 100%;
+        .text {
+            font-family:$title-font;
+            font-size:small;
+            font-weight:400;
+        }
 
-    cursor: pointer;
+        p {
+            text-align: justify;
+        }
+    }
 
-    object-fit: cover;
-    background-image: url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20%;
+    .img-box{
+        display:flex;
+        background-color:$color-box;
+        height:30vh;
+        width:100%;
+
+        cursor:pointer;
+
+        object-fit:cover;
+        background-image:url(/asset/svg/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:20%;
     
+    }
+
+    #boximg2 , #boximg2-1{
+        height: 55vh;
+        width: 50%;
+    }
+
+    .section-line {
+        display: flex;
+        width: 98%;
+        height:2px;
+        justify-self: center;
+        background-color: $black;
+    }
+
+}
+
+footer {
+    width: 100%;
+    .footer-line {
+        background-color: $black;
+        height: 2px;
+        width: 100%;
+    }
+    span {
+        font-size: x-small;
+    }
 }

@@ -37,7 +37,7 @@ function editDate(dataValue) {
 
     for (var m = 4; m <= 5; m++) {
        month = month + (dateArray[m]);
-       console.log(month)
+       
     }
 
     for (var y = 0; y <= 3; y++) {
