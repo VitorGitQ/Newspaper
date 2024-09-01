@@ -16,36 +16,64 @@ export default function inputDate(date) {
     buttonSend.onclick = () => {
         var valueDate = String(dateValue.value);
         date.innerHTML = editDate(valueDate);
+
+        dateModal.classList.toggle("hide");
+        fade.classList.toggle("hide");
     }
     
+    dateValue.onkeyup = (event) => {
+        var valueDate = String(dateValue.value);
+            
+
+        if (event.key === 'Enter') {
+            
+            date.innerHTML = editDate(valueDate);
+            dateModal.classList.toggle("hide");
+            fade.classList.toggle("hide");
+        }
+        
+    }
 
 }
 
 
-function editDate(dataValue) {
-    var dateArray = [] = dataValue.split("");
-    dateArray.splice(4,1);
-    dateArray.splice(6,1);
+function editDate(value) {
 
-    var day = [];
-    var month = [];
-    var year = [];
+    if (value)
+    {           
+        var dateArray = [] = value.split("");
+        dateArray.splice(4,1);
+        dateArray.splice(6,1);
 
-    for (var d = 6; d <= 7; d++) {
-        day = day + (dateArray[d]);
+        var day = [];
+        var month = [];
+        var year = [];
+
+        for (var d = 6; d <= 7; d++) {
+            day = day + (dateArray[d]);
+        }
+
+        for (var m = 4; m <= 5; m++) {
+            month = month + (dateArray[m]);
+            
+        }
+
+        for (var y = 0; y <= 3; y++) {
+            year = year + (dateArray[y]);
+        }
+
+        var dateEdited = `${nameMonth(month)} ${day}TH, ${year}`
+
+        return dateEdited;
     }
-
-    for (var m = 4; m <= 5; m++) {
-       month = month + (dateArray[m]);
-       
+    else
+    {
+        return "mm/dd/YYYY";
     }
-
-    for (var y = 0; y <= 3; y++) {
-        year = year + (dateArray[y]);
-    }
-
-    var dateEdited = `${nameMonth(month)} ${day}TH, ${year}`
-    return dateEdited;
+        
+    
+    
+    
     
 }
 

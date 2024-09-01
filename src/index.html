@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Newspaper</title>
+    <link rel="shortcut icon" type="image/svg" href="/asset/svg/Logopage.svg">
 
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body id="body">
 
-    <header class="container m-2">
-        <span class="row title-line">
+    <header class="d-flex justify-content-center align-items-center flex-column">
+        <div class="title-line">
 
-        </span>
-
-        <div class="row text-center align-items-center m-2">
-            <p class="col-3 sub-title m-0" id="subtitle1">The news it’s here, everything about your life to be real</p>
-            
-            <h1 class="col-6 title m-0" id="title">MY NEWSPAPER</h1>
-           
-            <p class="col-3 sub-title m-0" id="subtitle2">The news it’s here, everything about your life to be real</p>
         </div>
 
-        <span class="row title-line">
+        <div class="conteiner row text-center align-items-center conteiner-title ">
+            <p class="col-3 sub-title m-0 p-0" id="subtitle1">The news it’s here, everything about your life to be real</p>
             
-        </span>
+            <h1 class="col-6 title p-0 m-0" id="title">MY NEWSPAPER</h1>
+           
+            <p class="col-3 sub-title p-0 m-0" id="subtitle2">The news it’s here, everything about your life to be real</p>
+        </div>
 
-        <div class="row text-center">
-            <span class="col date-line m-2"></span>
-            <div class="col-2 p-0 date pointer" id="date">novenber 12th, 2024</div>
-            <span class="col date-line m-2"></span>
+        <div class="title-line">
+            
+        </div>
+
+        <div class="conteiner row text-center">
+            <div class="col-5 date-line"></div>
+            <div class="col-2 p-0 date pointer" id="date">MM/DD/YYYY</div>
+            <div class="col-5 date-line"></div>
         </div>
     </header>
     
 
     <div class="input-box p-4 hide" id="text-modal">
         <button type="button" class="buttonOut" id="buttonOut-textmodal">x</button>
-        <input id="inputText" type="text" name="name" placeholder="Digite o título">
+        <input id="inputText" type="text" name="name" placeholder="Type here...">
         <button type="button" class="buttonSend" id="buttonSend-textmodal">Done</button>
     </div>
 
@@ -62,60 +63,73 @@
         
     </div>
 
-    <main class=" d-flex-colum justify-content-center">
+    <main>
 
-       <section class="container">
-        <article >
-            
-            <img class="img-box" id="boximg1">
-        
-            <h2 class="pointer m-0" id="subtitle3">One Day So Spacial</h2>
-            <p class="pointer text" id="description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-        </article>
+       <section class="d-flex flex-column">
+            <article id="first-article">
+                
+                <img class="img-box" id="boximg1">
+                
+                <div class="flex">
+                    <h2 class="pointer m-0" id="subtitle3">One Day So Spacial</h2>
+                    <p class="pointer text" id="description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+                </div>
+            </article>
 
-        <article>
-            <h2 class="pointer m-0" id="subtitle4">One Day So Spacial</h2>
-            <p class="pointer text" id="description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-            <div class="d-flex gap-2">
+            <article class="d-flex" id="second-article">
+                <div class="flex">
+                    <h2 class="pointer m-0" id="subtitle4">One Day So Spacial</h2>
+                    <p class="pointer text" id="description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+                </div>
+                
                 <img class="img-box" id="boximg2">
-                <img class="img-box" id="boximg2-1">
-            </div>
-                
-            <p class="pointer text" id="description3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus excepturi inventore blanditiis suscipit unde ex deserunt qui? Tempore, quisquam. Perspiciatis quis aperiam debitis eveniet quo modi sequi ipsam non doloribus.</p>
-        </article>
+                                
+                <p class="pointer text" id="description3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus excepturi inventore blanditiis suscipit unde ex deserunt qui? Tempore, quisquam. Perspiciatis quis aperiam debitis eveniet quo modi sequi ipsam non doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+            </article>
 
 
-        <article>
-            <span class="section-line m-1"> </span>
-            <h2 class="pointer m-0 text-center t display-4" id="subtitle5">One Day So Spacial</h2>
-            <img class="img-box" id="boximg3">
-                
-            <p class="pointer text" id="description4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-        </article>
+            <article class="d-flex flex-column align-items-center" id="third-article">
+                <span class="section-line m-1"> </span>
+                <div>
+
+                    <div>
+
+                        <h2 class="pointer m-0 text-center t display-4" id="subtitle5">One Day So Spacial</h2>
+                        <img class="img-box size-box" id="boximg3">
+                            
+                    </div>
+                    <p class="pointer text" id="description4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+                    
+                </div>
+            </article>
        </section>
 
-       <section class="container p-4 d-flex flex-wrap justify-content-center gap-4">
-        <article class="col m-1">
-            <h2 class="pointer m-0" id="subtitle6">One Day So Spacial</h2>
-            <p class="pointer text" id="description5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-        </article>
+       <section class="d-flex">
 
-        <article class="col m-1">
-            <h2 class="pointer m-0 " id="subtitle7">One Day So Spacial</h2>
-            <p class="pointer text" id="description6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-        </article>
+            <div>
+                <article>
+                    <h2 class="pointer m-0" id="subtitle6">One Day So Spacial</h2>
+                    <p class="pointer" id="description5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+                </article>
+    
+                <article >
+                    <h2 class="pointer m-0 " id="subtitle7">One Day So Spacial</h2>
+                    <p class="pointer" id="description6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+                </article>
+            </div>
 
-        <article class="wrap text-center" >
-            <h2 class="pointer m-0 display-4" id="subtitle8">One Day So Spacial</h2>
-            <p class="pointer text" id="description7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
-        </article>
+            <article id="last-article-last-section">
+                <h2 class="pointer m-0" id="subtitle8">One Day So Spacial</h2>
+                <p class="pointer" id="description7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis dolorum eligendi commodi nobis odio pariatur nisi natus inventore quae? Distinctio repudiandae amet deleniti dolorem aliquam quia corrupti consequuntur pariatur.</p>
+            </article>
        </section>
 
     </main>
 
-    <footer class="container text-center">
+    <footer class="text-center">
         <div class="footer-line"></div>
-        <span>My Newspaper | Vitor Queiroz</span>
+        <div class="footer-line test"></div>
+        <a href="https://htppsvitor.github.io/Portif-lio/">My Newspaper | Vitor Queiroz</a>
     </footer>
     
 

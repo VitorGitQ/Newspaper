@@ -1,5 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../asset/sass/input-box.scss";
+@import "../asset/sass/input-text.scss";
 @import "../asset/sass/input-img.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@100;300;500;700&display=swap');
@@ -29,14 +29,27 @@ body {
 }
 
 header {
+    width: 100%;
+    padding-top: 1rem;
+    div {
+        width: 100%;
+    }
+
+    .conteiner-title {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
     .title-line {
+        width: 100%;
         background-color: $black;
         height: 2px;
     }
 
     .title {
+        width: auto;
         cursor:pointer;
-    
     }
     .sub-title {
         font-size:x-small;
@@ -47,15 +60,22 @@ header {
         font-size:xx-small;
     }
     .date-line {
+        margin: 6px 0 0 0;
         background-color: $black;
         height:1px;
     }
 }
 
 main {
-    padding: 10px;
+    
+    padding: 2rem 1rem 1rem 1rem;
+    section {
+        gap: 3rem;
+    }
+    
     article {
-        margin-bottom: 50px;
+
+        text-align: start;
 
         .text {
             font-family:$title-font;
@@ -71,7 +91,7 @@ main {
     .img-box{
         display:flex;
         background-color:$color-box;
-        height:30vh;
+        height:60vw;
         width:100%;
 
         cursor:pointer;
@@ -84,29 +104,214 @@ main {
     
     }
 
-    #boximg2 , #boximg2-1{
-        height: 55vh;
-        width: 50%;
+    #second-article {
+
+        flex-direction: column;
+
+        #boximg2 {
+            align-self: center;
+        }
     }
 
+    section:last-child {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem 3rem 2rem;
+        width: 100%;
+        gap: 2rem;
+
+        article {
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        div {
+            display: flex;
+            width: 100%;
+            gap: 3rem;
+            flex-direction: row;
+            margin: 0;
+        }
+
+       
+        
+    }
     .section-line {
         display: flex;
         width: 98%;
         height:2px;
         justify-self: center;
         background-color: $black;
+        gap: 1rem;
     }
+
+
 
 }
 
 footer {
     width: 100%;
+    a {
+        text-decoration: none;
+        color: $black;
+    }
     .footer-line {
         background-color: $black;
+        margin-bottom: 3px;
         height: 2px;
         width: 100%;
     }
-    span {
+
+    .test {
+        height: 4px;
+    }
+    div:last-child {
         font-size: x-small;
+        padding: 1rem 0 1rem 0;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+    header {
+        .sub-title {
+            font-size:medium;
+        }
+        .date {
+            font-size:small;
+        }
+    }
+
+    main {
+        section {
+            gap: 5rem;
+        }
+
+        #first-article {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            gap: 1rem;
+        
+            #boximg1 {
+                height:30vw;
+                width:50%;
+            }
+
+            div {
+                width: 50%;
+                p {
+                    width: auto;
+                }
+            }
+        }
+
+        #second-article {
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+
+            #boximg2 {
+                height:20vw;
+                width:30%;
+            }
+
+            div {
+                width: 35%;
+                h2 {
+                    font-size:xx-large;
+                }
+                p {
+                    width: 100%;
+                }
+            }
+
+            p {
+                width: 35%;
+            }
+
+        }
+
+
+        #third-article {
+            
+            div:nth-child(2) {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+
+                div:nth-child(1){
+
+                    width: 70%;
+                    #boximg3 {
+                        height:40vw;
+                        width: 100%;
+                    }
+                }
+
+                p {
+                    width: 30%;
+                    padding:4rem 0 0 1rem ;
+                }
+            }
+        }
+
+
+        section:last-child {
+            flex-direction: row;
+            gap: 4rem;
+            padding: 5rem 4rem 2rem 4rem;
+            article {
+                width: auto;
+            }
+
+            div {
+                width: auto;
+                gap: 4rem;
+            }
+        }
+
+        article{
+            .text{
+                width: 60rem;
+            }
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .img-box{
+            height:35rem;
+            width:60rem;
+        }
+
+        
+    }
+
+}
+
+@media (min-width: 1200px) {
+    main {
+        article{
+            .text{
+                width: 70rem;
+                font-size:large;
+            }
+        }
+        .img-box{
+         height:35rem;
+         width:70rem;
+        }
+ 
+        #boximg2 , #boximg2-1{
+         height: 48rem;
+         width: 35rem;
+        }
     }
 }

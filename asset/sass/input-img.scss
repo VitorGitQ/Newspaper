@@ -40,7 +40,8 @@ $color-box:#433E3E;
 
     label {
         display: flex;
-        width: 60vw;
+        width: 65vw;
+        max-width: 30rem;
         height: 40vh;
         background-color: $color-main;
         color: $subton;
@@ -64,3 +65,4 @@ $color-box:#433E3E;
     display: flex;
     position: fixed;
 }
+
