@@ -16,7 +16,7 @@
 ## PROJETO
 "My Newspaper" é um projeto web que tem objetivo permitir que o usuário crie sua própria página de jornal, nela ele poderá por fotos de momentos icônicos da sua vida e comentar sobre esses momentos... Ou seja fazer desses momentos notícias de um velho jornal.
 
-Esse projeto vai funcionar da senguinte forma, existirá campos editaveis, tanto para fotos como para a edição de texto e títulos. E no fim quando o jornal estiver do jeitinho que deseja o usuário poderá baixar essa página como uma arquivo PDF para guardar.
+Esse projeto vai funcionar da senguinte forma, existirá campos editaveis, tanto para fotos como para a edição de texto e título, possibilitando o usuário se divertir e por sua criatividade e histórias no papel, ou melhor na tela.
 
 ## LAYOUT
 
