@@ -71,6 +71,7 @@ main {
     padding: 2rem 1rem 1rem 1rem;
     section {
         gap: 3rem;
+        
     }
     
     article {
@@ -113,16 +114,30 @@ main {
         }
     }
 
+    #third-article {
+        img {
+            width:95vw;
+        }
+    }
+
     section:last-child {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 3rem 2rem 3rem 2rem;
         width: 100%;
         gap: 2rem;
 
         article {
             text-align: center;
+            width: 50%;
             font-size: 1rem;
+
+            
+        }
+
+        #last-article-last-section {
+            width: 90%;
         }
         
         div {
@@ -264,12 +279,12 @@ footer {
             flex-direction: row;
             gap: 4rem;
             padding: 5rem 4rem 2rem 4rem;
-            article {
-                width: auto;
-            }
+        
 
+            #last-article-last-section {
+                width: 45%;
+            }
             div {
-                width: auto;
                 gap: 4rem;
             }
         }
