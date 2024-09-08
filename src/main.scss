@@ -37,6 +37,7 @@ header {
 
     .conteiner-title {
         display: flex;
+        height: auto;
         justify-content: space-between;
         padding: 1rem 2rem;
     }
@@ -48,7 +49,9 @@ header {
     }
 
     .title {
-        width: auto;
+        width: 35%;
+        font-size:larger;
+        word-wrap: break-word;
         cursor:pointer;
     }
     .sub-title {
@@ -195,6 +198,9 @@ footer {
         }
         .date {
             font-size:small;
+        }
+        .title {
+            font-size:2.5rem;
         }
     }
 

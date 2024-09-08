@@ -11969,6 +11969,7 @@ header div {
 }
 header .conteiner-title {
   display: flex;
+  height: auto;
   justify-content: space-between;
   padding: 1rem 2rem;
 }
@@ -11978,7 +11979,9 @@ header .title-line {
   height: 2px;
 }
 header .title {
-  width: auto;
+  width: 35%;
+  font-size: larger;
+  word-wrap: break-word;
   cursor: pointer;
 }
 header .sub-title {
@@ -12091,6 +12094,9 @@ footer div:last-child {
   }
   header .date {
     font-size: small;
+  }
+  header .title {
+    font-size: 2.5rem;
   }
   main section {
     gap: 5rem;
